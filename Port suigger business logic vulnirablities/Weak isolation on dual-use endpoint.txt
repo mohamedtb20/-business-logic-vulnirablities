@@ -1,0 +1,13 @@
+Lab link : https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-weak-isolation-on-dual-use-endpoint
+
+In this lab the dev team makes a mistake on the code which allow us to access to other person accounts
+we can remove one mandotory parameter with the value in this case we can impass and impass and remove the password parameter
+
+
+Steps :
+1-Access to wiener account
+2-Change the password and send the post response to burp suite repeater
+3-try to remove the current password parameter with the value you will see 200k ok response
+4-Change the username wiener to administrator and put the password value that you want on the current password parameter
+5-access to the administrator account
+6-remove carlos

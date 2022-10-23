@@ -1,0 +1,12 @@
+lab link : https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-flawed-enforcement-of-business-rules
+
+In a specific domain when the dev team make a flaw to understand it you should understand well the logic of the website
+In this lab we have 2 coupons code if we try to apply them successively a multiple time it will not work
+the idea is to apply : 1coupon 2coupon 1coupon 2coupon 
+which can break the logic 
+to know this you should know well the domain and the logic
+
+steps :
+1-Add to cart : Lightweight l33t leather jacket
+2-Apply the NEWCUST5 and the SIGNUP30 coupons consecutively
+3- place order

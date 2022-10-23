@@ -1,0 +1,11 @@
+Lab link : https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-insufficient-workflow-validation
+
+In this lab the dev team makes a flawed assymption which allow us to skip the payout confirmation page
+By lunshing the same HTTP response for a confirmation page of a product that we bought  for inlimited and different products even if we haven't enought money
+
+Steps :
+1-Open burp suite
+2-Login and buy any product less than 100$
+3-See on the http history in burp suite the confirmation post request(/cart/order-confirmation) and send it to repeater
+4-Go and add to cart the Lightweight l33t leather jacket"
+5-send the /cart/order-confirmation (in 2)

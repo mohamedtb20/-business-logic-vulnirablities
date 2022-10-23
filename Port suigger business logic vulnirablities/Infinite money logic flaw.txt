@@ -1,0 +1,8 @@
+lab link : https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-infinite-money
+
+In this lab we have access to a coupon code and a gift card 
+if we use the coupon to buy the giftcard after that you will see that you get more money (benifit)
+The website is vulnirable to business logic because you can do it a multiple time using an automated process and getting unlimited amount of money
+we will uses a macro with the requests that you need to buy a gift-card with the coupon code and place the order
+to repeat the process without getting banned we will use intruder with a NULL payload 
+for the gift card number we will consider it as a custom charracter 

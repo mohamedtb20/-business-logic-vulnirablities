@@ -1,0 +1,12 @@
+lab link : https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-authentication-bypass-via-flawed-state-machine
+
+In this lab there is a flaw where you can delete a sequence on the website 
+if we go in thr login process we see that the website tell us to select a role
+what if we drop the get role request ?
+
+Steps :
+1-Login with wiener credentiels
+2-intercept the role request on burp suite
+3-drop the get role request
+4-Open mannually the url again and intercept it on burp suite
+3-forward the result 
